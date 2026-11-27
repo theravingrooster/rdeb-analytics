@@ -1,0 +1,19 @@
+sample_id,sample_label,group,donor,diagnosis,tissue,title,source_name,array_label,platform_id
+GSM5224960,EB1w,EBw,EB1,recessive dystrophic epidermolysis bullosa,wounded skin,wounded with EBw [EB1w],Epidermolysis Bullosa Wounded,7196780027_A_Grn,GPL28270
+GSM5224961,EB1n,EBn,EB1,recessive dystrophic epidermolysis bullosa,normal skin,normal with EBn [EB1n],Epidermolysis Bullosa Normal,7196780027_B_Grn,GPL28270
+GSM5224962,C1,HC,C1,healthy,control skin,control with HC [C1],Control,7196780027_C_Grn,GPL28270
+GSM5224963,EB2w,EBw,EB2,recessive dystrophic epidermolysis bullosa,wounded skin,wounded with EBw [EB2w],Epidermolysis Bullosa Wounded,7196780027_D_Grn,GPL28270
+GSM5224964,EB2n,EBn,EB2,recessive dystrophic epidermolysis bullosa,normal skin,normal with EBn [EB2n],Epidermolysis Bullosa Normal,7196780027_E_Grn,GPL28270
+GSM5224965,C2,HC,C2,healthy,control skin,control with HC [C2],Control,7196780027_F_Grn,GPL28270
+GSM5224966,EB3w,EBw,EB3,recessive dystrophic epidermolysis bullosa,wounded skin,wounded with EBw [EB3w],Epidermolysis Bullosa Wounded,7196780027_G_Grn,GPL28270
+GSM5224967,EB3n,EBn,EB3,recessive dystrophic epidermolysis bullosa,normal skin,normal with EBn [EB3n],Epidermolysis Bullosa Normal,7196780027_H_Grn,GPL28270
+GSM5224968,C3,HC,C3,healthy,control skin,control with HC [C3],Control,7196780027_I_Grn,GPL28270
+GSM5224969,EB4w,EBw,EB4,recessive dystrophic epidermolysis bullosa,wounded skin,wounded with EBw [EB4w],Epidermolysis Bullosa Wounded,7196780027_J_Grn,GPL28270
+GSM5224970,EB4n,EBn,EB4,recessive dystrophic epidermolysis bullosa,normal skin,normal with EBn [EB4n],Epidermolysis Bullosa Normal,7196780027_K_Grn,GPL28270
+GSM5224971,C4,HC,C4,healthy,control skin,control with HC [C4],Control,7196780027_L_Grn,GPL28270
+GSM5224972,EB5w,EBw,EB5,recessive dystrophic epidermolysis bullosa,wounded skin,wounded with EBw [EB5w],Epidermolysis Bullosa Wounded,7196780073_A_Grn,GPL28270
+GSM5224973,EB5n,EBn,EB5,recessive dystrophic epidermolysis bullosa,normal skin,normal with EBn [EB5n],Epidermolysis Bullosa Normal,7196780073_B_Grn,GPL28270
+GSM5224974,C5,HC,C5,healthy,control skin,control with HC [C5],Control,7196780073_C_Grn,GPL28270
+GSM5224975,EB6n,EBn,EB6,recessive dystrophic epidermolysis bullosa,normal skin,normal with EBn [EB6n],Epidermolysis Bullosa Normal,7196780073_D_Grn,GPL28270
+GSM5224976,EB6w,EBw,EB6,recessive dystrophic epidermolysis bullosa,wounded skin,wounded with EBw [EB6w],Epidermolysis Bullosa Wounded,7196780073_E_Grn,GPL28270
+GSM5224977,C6,HC,C6,healthy,control skin,control with HC [C6],Control,7196780073_F_Grn,GPL28270

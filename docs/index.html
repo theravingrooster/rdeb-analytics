@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RDEB Analytics</title>
+  <meta name="description" content="Proof-of-concept computational analyses of public recessive dystrophic epidermolysis bullosa (RDEB) data, by Ryan Kern.">
+  <meta name="author" content="Ryan Kern">
+  <meta name="theme-color" content="#f3f0e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://theravingrooster.github.io/rdeb-analytics/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:title" content="RDEB Analytics">
+  <meta property="og:description" content="Proof-of-concept computational analyses of public RDEB data, by Ryan Kern.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://theravingrooster.github.io/rdeb-analytics/">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>
+          <span class="brand-name">RDEB Analytics</span>
+          <span class="brand-by">Ryan Kern · Stanford</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <header class="page-head">
+      <p class="kicker">Computational research portfolio</p>
+      <h1>Public-data analyses of RDEB</h1>
+      <p class="lede">Proof-of-concept computational work on recessive dystrophic epidermolysis bullosa, using public datasets only.</p>
+    </header>
+    <div class="prose">
+      <p>Each project starts from a published gene-expression series, loads it with a notebook, and records only the steps that have actually been run. The first project is a quality-control pass on a public microarray study of RDEB skin. Differential expression and the steps after it are still ahead.</p>
+      <p class="callout">Public datasets only. No patient data or protected health information.</p>
+    </div>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <p>One public series is posted. Each project page gives the question, the dataset, and how far the analysis has gone.</p>
+      <!--
+        Adding a project: copy the article below, point the link at
+        projects/<id>.html, and replace the text. Also copy
+        docs/projects/template.html to docs/projects/<id>.html.
+      -->
+      <article class="card">
+        <p class="kicker">GSE171405 · Microarray</p>
+        <h3><a href="projects/gse171405.html">GSE171405 project page</a></h3>
+        <p class="question">RDEB wounds vs intact RDEB skin vs healthy skin</p>
+        <p>Public Illumina HumanHT-12 v4 microarray (GEO platform GPL28270): 18 samples and 47,323 probes.</p>
+        <p class="status"><span class="status-label">Status</span> Data loading and QC complete</p>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Public datasets only. No patient data or protected health information.</p>
+      <p><a href="https://github.com/theravingrooster/rdeb-analytics">Repository on GitHub</a> · Ryan Kern · Stanford</p>
+    </div>
+  </footer>
+</body>
+</html>

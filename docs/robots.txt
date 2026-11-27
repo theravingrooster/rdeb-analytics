@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /projects/template.html
+
+Sitemap: https://theravingrooster.github.io/rdeb-analytics/sitemap.xml

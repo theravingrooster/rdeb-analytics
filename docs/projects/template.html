@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project page template · RDEB Analytics</title>
+  <meta name="description" content="Template for a future RDEB Analytics project page. Not a project.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f3f0e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<!--
+  How to add a project
+  1. Copy this file to docs/projects/<project-id>.html.
+  2. Replace every [bracketed] placeholder. Delete this comment and the template banner.
+  3. Remove the noindex meta tag. Set the canonical URL.
+  4. Copy any figure you want on the page into docs/assets/<project-id>/.
+     Keep downloaded raw data gitignored.
+  5. Add a card in the Projects section of docs/index.html (a comment marks the spot).
+  6. Add the new page to docs/sitemap.xml.
+  Report only dataset facts you have checked, and only analyses the notebooks have run.
+-->
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>
+          <span class="brand-name">RDEB Analytics</span>
+          <span class="brand-by">Ryan Kern · Stanford</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <p class="template-banner">Template for a future project page. Replace the bracketed text, then remove this banner. This page is not a project.</p>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li aria-current="page">[Project id]</li>
+      </ol>
+    </nav>
+    <header class="page-head">
+      <p class="kicker">Project · [Assay type]</p>
+      <h1>[Project id]</h1>
+      <p class="question">[Question, in one line]</p>
+    </header>
+
+    <section class="prose" aria-labelledby="question-heading">
+      <h2 id="question-heading">Question</h2>
+      <p>[What comparison or question the project asks. Do not state a result that has not been computed.]</p>
+    </section>
+
+    <section aria-labelledby="dataset-heading">
+      <h2 id="dataset-heading">Dataset</h2>
+      <div class="table-scroll">
+        <table>
+          <caption>Checked facts for this public dataset.</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Accession</th>
+              <td>[GEO accession and link]</td>
+            </tr>
+            <tr>
+              <th scope="row">Platform</th>
+              <td>[Platform]</td>
+            </tr>
+            <tr>
+              <th scope="row">Samples</th>
+              <td>[Number]</td>
+            </tr>
+            <tr>
+              <th scope="row">Source paper</th>
+              <td>[Citation and DOI]</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="prose" aria-labelledby="status-heading">
+      <h2 id="status-heading">Status</h2>
+      <p class="status"><span class="status-label">Done</span> [What is finished]</p>
+      <h3>Next steps</h3>
+      <ol>
+        <li>[Next step]</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="figure-heading">
+      <h2 id="figure-heading">[Figure heading, or delete this section]</h2>
+      <p>[Optional figure. Copy the image into docs/assets/[project-id]/ and use the same figure markup as projects/gse171405.html, including alt text and a caption.]</p>
+    </section>
+
+    <section class="prose" aria-labelledby="code-heading">
+      <h2 id="code-heading">Code</h2>
+      <ul>
+        <li><a href="[GitHub notebook URL]">Notebook on GitHub</a></li>
+        <li><a href="[Colab URL]">Open the notebook in Colab</a></li>
+        <li><a href="[GitHub README URL]">Project README on GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Public datasets only. No patient data or protected health information.</p>
+      <p><a href="https://github.com/theravingrooster/rdeb-analytics">Repository on GitHub</a> · Ryan Kern · Stanford</p>
+    </div>
+  </footer>
+</body>
+</html>
