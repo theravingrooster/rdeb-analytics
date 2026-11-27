@@ -1,0 +1,12 @@
+# Python, notebooks, editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw GEO downloads for every project. Notebooks fetch these at runtime.
+projects/*/data/raw/*
+!projects/*/data/raw/.gitkeep
+projects/*/data/processed/

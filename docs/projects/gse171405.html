@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GSE171405 · RDEB Analytics</title>
+  <meta name="description" content="GSE171405: public microarray comparison of RDEB wounds, intact RDEB skin, and healthy skin. Data loading and QC are complete.">
+  <meta name="author" content="Ryan Kern">
+  <meta name="theme-color" content="#f3f0e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://theravingrooster.github.io/rdeb-analytics/projects/gse171405.html">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>
+          <span class="brand-name">RDEB Analytics</span>
+          <span class="brand-by">Ryan Kern · Stanford</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li aria-current="page">GSE171405</li>
+      </ol>
+    </nav>
+    <header class="page-head">
+      <p class="kicker">Project · Microarray</p>
+      <h1>GSE171405</h1>
+      <p class="question">RDEB wounds vs intact RDEB skin vs healthy skin</p>
+    </header>
+
+    <section class="prose" aria-labelledby="question-heading">
+      <h2 id="question-heading">Question</h2>
+      <p>Compare expression in three groups from one public series: RDEB wounds (EBw), intact RDEB skin from the same patients (EBn), and healthy skin.</p>
+      <p>Notebook 01 loads that series and checks the matrix. Differential expression, pathway enrichment, and signature reversal are later steps.</p>
+    </section>
+
+    <section aria-labelledby="dataset-heading">
+      <h2 id="dataset-heading">Dataset</h2>
+      <div class="table-scroll">
+        <table>
+          <caption>Facts for GEO series GSE171405. Counts are the published series, not results of a statistical test.</caption>
+          <tbody>
+            <tr>
+              <th scope="row">Accession</th>
+              <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171405">GSE171405 on NCBI GEO</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Platform</th>
+              <td>Illumina HumanHT-12 v4 microarray (<a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL28270">GPL28270 on NCBI GEO</a>)</td>
+            </tr>
+            <tr>
+              <th scope="row">Samples</th>
+              <td>18</td>
+            </tr>
+            <tr>
+              <th scope="row">Probes</th>
+              <td>47,323</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Groups</h3>
+      <div class="table-scroll">
+        <table>
+          <caption>Sample groups in GSE171405.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Label</th>
+              <th scope="col">Samples</th>
+              <th scope="col">What was profiled</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">EBw</th>
+              <td>6</td>
+              <td>RDEB wound</td>
+            </tr>
+            <tr>
+              <th scope="row">EBn</th>
+              <td>6</td>
+              <td>Matched RDEB intact skin from the same six patients, EB1–EB6</td>
+            </tr>
+            <tr>
+              <th scope="row">HC</th>
+              <td>6</td>
+              <td>Healthy controls, C1–C6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Source paper</h3>
+      <p class="citation">Onoufriadis A, Proudfoot LE, Ainali C, Torre D, Papanikolaou M, Rayinda T, Rashidghamat E, Danarti R, Mellerio JE, Ma'ayan A, McGrath JA. Transcriptomic profiling of recessive dystrophic epidermolysis bullosa wounded skin highlights drug repurposing opportunities to improve wound healing. <cite>Experimental Dermatology</cite>. 2022;31(3):420–426. <a href="https://doi.org/10.1111/exd.14481">doi:10.1111/exd.14481</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34694680/">34694680</a>.</p>
+    </section>
+
+    <section class="prose" aria-labelledby="status-heading">
+      <h2 id="status-heading">Status</h2>
+      <p class="status"><span class="status-label">Done</span> Data loading and quality control</p>
+      <h3>Next steps</h3>
+      <ol>
+        <li>Differential expression with a limma-style linear model.</li>
+        <li>Pathway enrichment for inflammation, fibrosis, JAK-STAT, extracellular matrix, and cytokine signaling.</li>
+        <li>Signature reversal against LINCS/CMap-style resources.</li>
+      </ol>
+    </section>
+
+    </div>
+    <div class="wrap wrap-wide">
+    <section aria-labelledby="qc-heading">
+      <h2 id="qc-heading">Quality control</h2>
+      <figure>
+        <div class="figure-frame" tabindex="0" role="region" aria-label="Quality-control chart. Scroll horizontally if it is wider than the window.">
+          <img
+            src="../assets/gse171405/01_qc_overview.png"
+            width="2075"
+            height="608"
+            alt="Three-panel quality-control chart for GSE171405. Left: bar chart with 6 samples in each of EBw, EBn, and HC. Middle: total raw intensity for each of the 18 samples. Right: box plots of quantile-normalized intensity for each sample.">
+        </div>
+        <figcaption>
+          Quality-control overview from notebook 01. Left: six samples in each group. Middle: total non-normalized intensity per sample, a library-size analogue. Right: quantile-normalized intensity per sample. The chart checks that the matrix loaded. Scroll sideways on a narrow screen. The file in the repository is <a href="https://github.com/theravingrooster/rdeb-analytics/blob/main/projects/gse171405/figures/01_qc_overview.png">figures/01_qc_overview.png</a>.
+        </figcaption>
+      </figure>
+    </section>
+    </div>
+    <div class="wrap">
+    <section class="prose" aria-labelledby="code-heading">
+      <h2 id="code-heading">Code</h2>
+      <p>The notebook downloads the public GEO files when it runs. Those files are not stored in the repository.</p>
+      <ul>
+        <li><a href="https://github.com/theravingrooster/rdeb-analytics/blob/main/projects/gse171405/notebooks/01_download_and_load.ipynb">Notebook on GitHub</a></li>
+        <li><a href="https://colab.research.google.com/github/theravingrooster/rdeb-analytics/blob/main/projects/gse171405/notebooks/01_download_and_load.ipynb">Open the notebook in Colab</a></li>
+        <li><a href="https://github.com/theravingrooster/rdeb-analytics/blob/main/projects/gse171405/README.md">Project README on GitHub</a></li>
+        <li><a href="https://github.com/theravingrooster/rdeb-analytics/tree/main/projects/gse171405/results">QC tables on GitHub</a></li>
+      </ul>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Public datasets only. No patient data or protected health information.</p>
+      <p><a href="https://github.com/theravingrooster/rdeb-analytics">Repository on GitHub</a> · Ryan Kern · Stanford</p>
+    </div>
+  </footer>
+</body>
+</html>

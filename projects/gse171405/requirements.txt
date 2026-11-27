@@ -1,0 +1,11 @@
+# Notebook 01 (download and load)
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+
+# Planned for later notebooks (not required to run 01)
+# gseapy          # pathway enrichment
+# statsmodels     # microarray-style linear models
+# scipy
+# Adjust later if we use rpy2 + limma, or another DE method.

@@ -1,0 +1,27 @@
+GSE171405 download-and-load sanity summary
+Series: Gene expression analysis in recessive dystrophic epidermolysis bullosa skin highlights drug repurposing opportunities to improve wound healing
+GEO: GSE171405
+Type: Expression profiling by array
+Platform: GPL28270 (Illumina HumanHT-12 v4, Array_Address_Id)
+PubMed: 34694680
+
+Expression matrix: 47323 probes × 18 samples
+Gene ID type: Illumina Array_Address_Id (numeric). Annotated gene symbols: 34694 unique.
+Annotation overlap: 47323 / 47323 probes.
+Non-normalized extra control probes: 887
+Missing values in normalized matrix: 0
+
+Group counts:
+       n_samples  n_donors
+group                     
+EBw            6         6
+EBn            6         6
+HC             6         6
+
+Library-size analogue (total raw intensity) by group:
+       count          mean           std           min           25%           50%           75%           max
+group                                                                                                         
+EBw      6.0  2.812659e+07  3.757440e+06  2.379198e+07  2.539035e+07  2.787864e+07  3.001176e+07  3.392655e+07
+EBn      6.0  2.545431e+07  5.967335e+06  1.854079e+07  2.061706e+07  2.569873e+07  3.037697e+07  3.192805e+07
+HC       6.0  2.860182e+07  2.970548e+06  2.406199e+07  2.710045e+07  2.870323e+07  3.096184e+07  3.186157e+07
+
